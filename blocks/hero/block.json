@@ -1,0 +1,14 @@
+{
+  "apiVersion": 3,
+  "name": "acorn/hero",
+  "title": "Hero",
+  "category": "design",
+  "icon": "cover-image",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Hero Title from block.json"
+    }
+  },
+  "editorScript": "file:./index.js"
+}

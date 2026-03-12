@@ -1,0 +1,11 @@
+{
+  "apiVersion": 3,
+  "name": "acorn/post-list",
+  "title": "Post List",
+  "category": "widgets",
+  "icon": "list-view",
+  "attributes": {
+   
+  },
+  "editorScript": "file:./index.js"
+}

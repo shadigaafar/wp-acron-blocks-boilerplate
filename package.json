@@ -1,0 +1,30 @@
+{
+  "name": "acorn-block",
+  "version": "1.0.0",
+  "description": "Acorn blocks",
+  "license": "ISC",
+  "author": "Your Name",
+  "main": "index.js",
+  "scripts": {
+    "check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:md:js": "wp-scripts lint-md-js",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "webpack --watch --mode development --config webpack.config.js",
+		"build": "webpack --watch --mode production --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^31.6.0",
+    "copy-webpack-plugin": "^12.0.2",
+		"file-loader": "^6.2.0",
+		"image-webpack-loader": "^8.1.0"
+  }
+}

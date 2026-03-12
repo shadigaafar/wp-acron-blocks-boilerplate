@@ -1,0 +1,27 @@
+{
+  "name": "wordpress/acorn-block",
+  "type": "project",
+  "require": {
+    "roots/acorn": "^5.0",
+    "livewire/livewire": "^4.2",
+     "roots/acorn-fse-helper": "^1.0"
+  },
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "Wordpress\\BlockAcorn\\": "/",
+       "App\\": "app/",
+       "App\\Blocks\\": "app/Blocks/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Your Name"
+    }
+  ],
+  "scripts": {
+    "post-autoload-dump": [
+      "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
+    ]
+  }
+}

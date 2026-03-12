@@ -1,0 +1,7 @@
+dist/
+vendor/
+node_modules/
+templates/
+parts/
+patterns/
+.env
